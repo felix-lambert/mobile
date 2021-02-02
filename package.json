@@ -10,7 +10,6 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@zareanmasoud/react-native-accessibility-service": "0.0.3",
     "react": "16.13.1",
     "react-native": "0.63.4"
   },

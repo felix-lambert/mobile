@@ -1,6 +1,7 @@
 package com.mobile;
-
+import com.mobile.AccessibilityServicePackage;
 import com.facebook.react.ReactActivity;
+import android.util.Log;
 
 public class MainActivity extends ReactActivity {
 
@@ -10,6 +11,9 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
+
+    Log.d("Notification", "get main component name");
+
     return "mobile";
   }
 }
